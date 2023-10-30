@@ -1,0 +1,524 @@
+
+
+.Home {
+  position: relative;
+}
+.HomeContainer {
+  width: 100%;
+}
+.HomeSideBarContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.SideBar {
+  position: fixed;
+  bottom: 0px;
+  justify-content: center;
+  background: #ffffff;
+}
+
+.SideBarContainer {
+  display: none;
+  position: fixed;
+  flex-direction: column;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.SideBarMainTextContainer {
+  padding-top: 5rem;
+  text-align: center;
+}
+.SideBarPhoto {
+  height: 3.5rem;
+  border-radius: 9999px;
+}
+.SideBarMainText {
+  padding-top: 0.25rem;
+}
+.SideBarSmallText {
+  font-size: 0.75rem /* 12px */;
+  line-height: 1rem /* 16px */;
+  color: #cbd5e0;
+}
+.SideBarItemContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.SideBarVideo {
+  height: 2.5rem;
+}
+.SideBarDoll {
+  height: 4rem;
+}
+.MobNav {
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem;
+  background: #ffffff;
+  border: 1px solid #ffffff;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+.MobNavIcons {
+  height: 1.25rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.MobNavText {
+  font-size: 0.75rem /* 12px */;
+  line-height: 1rem /* 16px */;
+}
+
+.NavBar {
+  position: fixed;
+  width: 100%;
+  background: #ffffff;
+  z-index: 50;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+.navlogo{
+  height: 2rem;
+  padding: 1rem;
+}
+.NavItems {
+  display: flex;
+  gap: 1.25rem;
+  padding: 0.5rem;
+}
+.NavBell {
+  height: 1.2rem;
+}
+.NavBtn {
+  display: none;
+  height: 1.75rem;
+  margin-top: 0.5rem;
+}
+.NavProfile {
+  display: block;
+  height: 2rem;
+  border-radius: 9999px;
+}
+.SecondContainer {
+  width: 100%;
+  background: #fafbff;
+  padding-left: 1.25rem /* 20px */;
+  padding-right: 1.25rem /* 20px */;
+  padding-top: 7rem /* 80px */;
+  padding-bottom: 2.5rem /* 40px */;
+}
+.MobHead {
+  display: flex;
+  gap: 1rem;
+}
+.MobPhoto {
+  border-radius: 9999px;
+  height: 5rem;
+  margin-inline-start: 1rem /* 16px */;
+  margin-top: 0.5rem /* 8px */;
+  margin-bottom: 0.5rem /* 8px */;
+}
+.MobPhotoText {
+  align-self: center;
+}
+.SecColList,
+.SecColList2,
+.SecColList3,
+.thirdColList {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  width: 100%;
+  
+}
+.headingFont{
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.SecColList2 {
+  gap: 0.75rem;
+  margin-top: 1.25rem /* 20px */;
+  justify-content: flex-start;
+}
+.SecColList3 {
+  padding: 0.2rem /* 12px */;
+  background: #ffffff;
+  margin-top: 1.25rem /* 20px */;
+  justify-content: flex-start;
+  border: 1px solid rgb(226 232 240);
+  border-radius: 0.375rem /* 6px */;
+}
+.SecColList3Img {
+  margin-top: 0.75rem /* 12px */;
+  height: 1.75rem /* 28px */;
+}
+.borderline {
+  border-top: 1px solid rgb(226 232 240);
+  border-radius: 0.375rem /* 6px */;
+  width: 100%;
+  margin-top: 0.75rem /* 12px */;
+}
+.flexClass {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0.2rem;
+  padding-right: 0.2rem;
+}
+.thirdContainer {
+  width: 100%;
+  padding: 1.25rem /* 20px */;
+  background: #fafbff;
+}
+.thirdFlex {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem /* 12px */;
+}
+.thirdColWidth {
+  width: 100%;
+}
+.thirdColList {
+  padding: 0.5rem /* 8px */;
+  background: #ffffff;
+  margin-top: 1.25rem /* 20px */;
+  justify-content: flex-start;
+  border: 1px solid rgb(226 232 240);
+  border-radius: 0.375rem /* 6px */;
+}
+.thirdColBtn {
+  text-align: center;
+  width: 100%;
+  border: 1px solid rgb(226 232 240);
+  border-radius: 0.375rem /* 6px */;
+  padding-top: 0.5rem /* 8px */;
+  padding-bottom: 0.5rem /* 8px */;
+}
+.fouthColList {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+  margin-bottom: 5rem;
+  background: #ffffff;
+  margin-top: 1.25rem;
+  overflow: hidden;
+  width: 100%;
+  justify-content: start;
+  border: 1px solid rgb(226 232 240);
+  border-radius: 0.375rem /* 6px */;
+}
+
+.pageTwoContainer {
+  display: none;
+  height: 100vh;
+  background: #fafbff;
+  padding-top: 5rem /* 80px */;
+  padding-bottom: 5rem /* 80px */;
+  
+}
+.dualImage {
+  height: 1.75rem /* 28px */;
+}
+.tableBorder {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgb(226 232 240);
+  border-radius: 0.375rem /* 6px */;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-top: 1rem;
+  margin-left: 2rem;
+
+}
+.tableHeadItems {
+  display: flex;
+  justify-content: space-between;
+}
+.tanleInputContainer {
+  display: flex;
+  gap: 0.75rem;
+  padding: 0.75rem;
+}
+.tanleInput {
+  outline: none;
+  border: 1px solid rgb(226 232 240);
+  border-radius: 0.375rem /* 6px */;
+  padding-left: 1.5rem /* 28px */;
+  padding-right: 1.5rem /* 28px */;
+  padding-top: 0.25rem /* 4px */;
+  padding-bottom: 0.25rem /* 4px */;
+}
+.tableEndBtns {
+  border: 1px solid rgb(226 232 240);
+  border-radius: 0.375rem /* 6px */;
+  padding-left: 0.5rem /* 16px */;
+  padding-right: 0.5rem /* 16px */;
+}
+.tableBorderWidth {
+  border: 1px solid rgb(226 232 240);
+  border-radius: 0.375rem /* 6px */;
+  margin-top: 1rem /* 16px */;
+}
+.tableWidth {
+  width: 100%;
+  font-size: 0.875rem /* 14px */;
+  line-height: 1.25rem /* 20px */;
+}
+thead {
+  font-size: 0.75rem /* 12px */;
+  line-height: 1rem /* 16px */;
+}
+.theadBorder {
+  border-bottom-width: 1px;
+}
+th {
+  padding:15px;
+  text-align: start;
+ 
+}
+.flexColum {
+  display: flex;
+  flex-direction: column;
+}
+.extraSmallText {
+  font-size: 0.75rem /* 12px */;
+  line-height: 1rem /* 16px */;
+}
+.fourthImgh {
+  height: 3rem /* 48px */;
+}
+.fourthContainer {
+  display: flex;
+  gap: 0.25rem;
+  margin-top: 1rem /* 16px */;
+  margin-bottom: 1rem /* 16px */;
+}
+.flexgapped {
+  display: flex;
+  gap: 1rem /* 16px */;
+}
+.tablePadding {
+  padding: 15px;
+}
+.actionBtn {
+  height: 0.75rem;
+}
+.toggle {
+  height: 1.25rem /* 20px */;
+}
+.tabImage {
+  height: 1.75rem;
+}
+.thirdColImg{
+  height: 3rem;
+}
+.thirdColListContainer{
+  display: flex;
+  margin-top: 1rem/* 16px */;
+  margin-bottom: 1rem/* 16px */;
+  gap: 0.5rem;
+
+}
+.msgIcon{
+  align-self: center;
+  height: 1.25rem;
+}
+.rect{
+  height: 4rem;
+  width: 5rem;
+}
+.myAuto{
+  margin-top: auto;
+    margin-bottom: auto;
+}
+.fontBold{
+  font-weight: 700;
+}
+.SecColList2Container{
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+  background: #ffffff;
+  border: 1px solid rgb(226 232 240);
+  border-radius: 0.375rem /* 6px */;
+}
+.SecColList2Text{
+  color: #718096;
+  margin-top: 1.25rem/* 20px */;
+  font-size: 0.75rem/* 12px */;
+    line-height: 1rem/* 16px */;
+}
+.SecColList2Img{
+  margin-inline-end: auto;
+  margin-top: 1.25rem/* 20px */;
+  margin-bottom: 1.25rem/* 20px */;
+  height: 1.25rem/* 20px */;
+}
+.SecColListText{
+  padding: 1rem/* 16px */;
+  
+  background: #ffffff;
+  border-bottom: 1px solid rgb(226 232 240) ;
+}
+.SecColListImg{
+  padding-top: 1rem;
+  padding-bottom: 1rem
+}
+.SecColList{
+  border: 1px solid rgb(226 232 240);
+  border-radius: 0.375rem /* 6px */;
+}
+.bordred{
+  border: 1px solid rgb(226 232 240);
+  border-radius: 0.375rem /* 6px */;
+
+}
+.fixedNotiContainer{
+  position: fixed;
+  overflow: scroll;
+  width: 100%;
+  background: #FFFFFF;
+  right: 0px;
+  top: 0px;
+  height: 100vh;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  z-index: 50;
+}
+.notiListContainer{
+  display: flex;
+  flex-direction: column;
+  padding: 0.75rem;
+  border-bottom-width: 1px;
+
+}
+.notiListLeft{
+  display: flex;
+  gap: 0.5rem/* 8px */;
+
+}
+.notiListImg{
+  border-radius: 9999px;
+  height: 2.25rem/* 36px */;
+}
+.notiListRight{
+  align-self: flex-end;
+}
+.notiListBtn{
+  display: flex;
+  justify-content: space-between;
+  padding: 0.75rem/* 12px */;
+  border-bottom-width: 1px;
+}
+.notiListBtnImg{
+  height: 0.75rem/* 12px */;
+}
+
+
+
+
+
+
+
+
+@media (min-width: 768px) and (min-width: 1023px)  {
+  .HomeSideBarContainer {
+    flex-direction: row;
+  }
+  .SideBar {
+    position: relative;
+    display: flex;
+    width: 15%;
+  }
+  .SideBarContainer {
+    display: flex;
+  }
+  .MobNav {
+    display: none;
+  }
+  .NavBtn {
+    display: block;
+  }
+  .NavProfile {
+    display: none;
+  }
+  .SecondContainer {
+    width: 40%;
+    padding-top: 6rem /* 56px */;
+
+  }
+  .MobHead {
+    display: none;
+  }
+  .SecColList,
+  .SecColList2,
+  .thirdFlex {
+    flex-direction: row;
+  }
+  .thirdContainer {
+    width: 45%;
+    padding-top: 4.5rem /* 56px */;
+    padding-left: 1.25rem /* 20px */;
+    padding-right: 1.25rem /* 20px */;
+    padding-bottom: 2.5rem /* 40px */;
+  }
+  .thirdColWidth {
+    width: 50%;
+  }
+  .fouthColList {
+    margin-bottom: 0px;
+  }
+  .pageTwoContainer {
+    display: block;
+    width: 100vw;
+
+  }
+  .SecColList {
+    justify-content: center;
+    border: 1px solid rgb(226 232 240);
+    border-radius: 0.375rem /* 6px */;
+  }
+  .SecColList2Container{
+    width: 50%;
+  }
+  .SecColListText{
+    text-align: center;
+    width: 33.333333%;
+    border-right: 1px solid rgb(226 232 240);
+  }
+  .SecColListImg{
+    display: inline;
+  }
+  .SecColListImgMargin{
+    margin-top: 1rem;
+  }
+  .fixedNotiContainer{
+    width: 25%;
+    height: 90vh;
+    top: 4rem;
+
+  }
+  .imgPageTwo{
+    display: flex;
+    padding-left: 30px;
+  }
+
+
+
+
+
+}
+
+section::-webkit-scrollbar {
+  display: none;
+}
