@@ -1,5 +1,5 @@
 import React from "react";
-import mask from "../images/mask.png";
+import mask from "../images/Mask.png";
 
 const NotiList = () => {
   return (
